@@ -3,8 +3,8 @@
 :root {
   --font-serif: 'Cinzel', serif;
   --font-sans: 'Outfit', sans-serif;
-  --color-brand-blue: #2563eb;
-  --color-brand-blue-hover: #1d4ed8;
+  --color-brand-blue: #e5b869;
+  --color-brand-blue-hover: #d4a359;
   --color-dark: #0a0a0a;
 }
 
@@ -71,11 +71,11 @@ html.light ::-webkit-scrollbar-thumb {
 
 /* Custom glow animations */
 .glow-brand-blue {
-  box-shadow: 0 0 20px rgba(37, 99, 235, 0.15);
+  box-shadow: 0 0 20px rgba(229, 184, 105, 0.2);
 }
 
 .glow-brand-blue-hover:hover {
-  box-shadow: 0 0 30px rgba(37, 99, 235, 0.3);
+  box-shadow: 0 0 30px rgba(229, 184, 105, 0.35);
 }
 
 /* RTL layout helpers */
