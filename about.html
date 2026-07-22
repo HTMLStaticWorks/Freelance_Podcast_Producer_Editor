@@ -22,8 +22,8 @@
         extend: {
           colors: {
             'brand-blue': {
-              DEFAULT: '#e5b869',
-              hover: '#d4a359',
+              DEFAULT: '#f0b429',
+              hover: '#d99f1e',
               dark: '#b8893d',
             },
             'charcoal': {
@@ -59,15 +59,15 @@
       <div class="flex items-center justify-between h-16">
         
         <!-- Logo -->
-        <a href="index.html" class="flex items-center space-x-2 gap-2 text-white font-serif tracking-widest text-xl md:text-2xl font-bold group">
-          <span class="text-brand-blue group-hover:text-white transition-colors duration-300">
+        <a href="index.html" class="flex items-center space-x-2 gap-2 text-white font-serif tracking-widest text-xl md:text-2xl font-bold">
+          <span class="text-brand-blue">
             <i class="fas fa-microphone"></i>
           </span>
           <span class="text-gray-900 dark:text-white">PODCAST</span>
         </a>
 
         <!-- Desktop Navigation Links -->
-        <nav class="hidden lg:flex items-center lg:space-x-4 lg:mx-6 xl:space-x-8 xl:mx-10">
+        <nav class="hidden lg:flex items-center gap-4 xl:gap-8 lg:mx-6 xl:mx-10">
           <a href="index.html" class="nav-link font-medium text-sm tracking-wider uppercase text-gray-600 dark:text-gray-300 hover:text-brand-blue dark:hover:text-brand-blue transition-colors py-2 border-b-2 border-transparent">Home 1</a>
           <a href="home2.html" class="nav-link font-medium text-sm tracking-wider uppercase text-gray-600 dark:text-gray-300 hover:text-brand-blue dark:hover:text-brand-blue transition-colors py-2 border-b-2 border-transparent">Home 2</a>
           <a href="about.html" class="nav-link font-medium text-sm tracking-wider uppercase text-gray-900 dark:text-white hover:text-brand-blue transition-colors py-2 border-b-2 border-transparent">About</a>
@@ -492,7 +492,7 @@
         <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-brand-blue/10 via-transparent to-transparent pointer-events-none"></div>
         <div class="relative z-10 space-y-4">
           <i class="fas fa-microphone text-brand-blue text-3xl"></i>
-          <h3 class="font-serif font-bold text-white text-2xl md:text-3xl">Ready to Launch Your Best Season Yet?</h3>
+          <h3 dir="auto" class="font-serif font-bold text-white text-2xl md:text-3xl">Ready to Launch Your Best Season Yet?</h3>
           <p class="text-gray-400 text-sm max-w-md mx-auto">Join 180+ podcasters who trust me to produce, publish, and grow their shows.</p>
           <a href="contact.html" class="inline-block mt-4 bg-brand-blue hover:bg-brand-blue-hover text-black font-bold text-sm tracking-widest uppercase px-8 py-3 rounded-full transition-all duration-300 shadow-lg hover:shadow-brand-blue/30">
             Get Started <i class="fas fa-arrow-right ml-2"></i>
@@ -556,8 +556,8 @@
           <p class="text-xs text-gray-700 dark:text-gray-300">Get podcast production tips, industry trends, and exclusive guides delivered to your inbox.</p>
           <form id="newsletter-form" class="space-y-2">
             <div class="relative">
-              <input type="email" placeholder="Email Address" required class="w-full bg-white dark:bg-charcoal-800 border border-gray-200 dark:border-white/10 text-gray-900 dark:text-white rounded-full px-4 py-2 text-xs focus:outline-none focus:border-brand-blue">
-              <button type="submit" class="absolute right-1.5 top-1.5 bg-brand-blue hover:bg-brand-blue-hover text-black px-3 py-1 rounded-full text-xs font-bold">Join</button>
+              <input type="email" placeholder="Email Address" required class="w-full bg-white dark:bg-charcoal-800 border border-gray-200 dark:border-white/10 text-gray-900 dark:text-white rounded-full ltr:pl-4 ltr:pr-20 rtl:pr-4 rtl:pl-20 py-2 text-xs focus:outline-none focus:border-brand-blue">
+              <button type="submit" class="absolute ltr:right-1.5 rtl:left-1.5 top-1.5 bg-brand-blue hover:bg-brand-blue-hover text-black px-3 py-1 rounded-full text-xs font-bold">Join</button>
             </div>
           </form>
         </div>
@@ -566,7 +566,7 @@
 
       <div class="border-t border-gray-200 dark:border-white/5 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between text-xs text-gray-600 dark:text-gray-400 gap-4">
         <p>&copy; 2026 Podcast &mdash; Freelance Podcast Producer & Editor. All rights reserved.</p>
-        <div class="flex space-x-6 gap-2">
+        <div class="flex items-center gap-6">
           <a href="#" class="hover:text-gray-900 dark:hover:text-white">Privacy Policy</a>
           <a href="#" class="hover:text-gray-900 dark:hover:text-white">Terms of Service</a>
           <a href="#" class="hover:text-gray-900 dark:hover:text-white">Podcast Agreement</a>
