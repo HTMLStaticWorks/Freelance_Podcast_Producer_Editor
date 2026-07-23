@@ -307,9 +307,11 @@ html.dark #back-to-top {
 }
 
 /* Header navigation spacing fix for LTR & RTL */
-header nav {
-  display: flex !important;
-  gap: 1.25rem !important;
+@media (min-width: 1024px) {
+  header nav {
+    display: flex !important;
+    gap: 1.25rem !important;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -320,7 +322,12 @@ header nav {
 
 html[dir="rtl"] header nav {
   direction: rtl;
-  gap: 1.25rem !important;
+}
+
+@media (min-width: 1024px) {
+  html[dir="rtl"] header nav {
+    gap: 1.25rem !important;
+  }
 }
 
 @media (min-width: 1280px) {
